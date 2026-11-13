@@ -19,5 +19,13 @@
 - Performance e esporte
 - Saúde dos rins, pressão arterial e exames
 
+## Perguntas frequentes
+- Como funciona a consulta? A consulta é individual e pensada em torno do seu momento. Os detalhes de formato e agendamento são confirmados pelo WhatsApp.
+- Atende online? Há atendimento presencial e online. Peça os detalhes pelo botão de atendimento online no fim da página.
+- O que é lipedema? É uma condição que pode ser confundida com retenção de líquido ou ganho de peso. Só a avaliação médica diferencia.
+- Existe indicação de medicação ou hormônio antes da consulta? Não. Qualquer conduta só é definida depois da avaliação individual, e este site tem caráter informativo.
+- Posso tirar dúvidas clínicas pelo WhatsApp? O WhatsApp serve para agendamento e informações gerais. Orientações clínicas são dadas na consulta.
+- Preciso levar exames? Se tiver exames recentes, leve. A avaliação define se algum outro será necessário.
+
 ## Aviso
 Conteúdo informativo. Não substitui consulta médica nem avaliação individual. O site não coleta dados clínicos e não envia dados a servidores.
