@@ -10,4 +10,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: sitemap.xml
+Sitemap: https://draluannefortes.com/sitemap.xml
