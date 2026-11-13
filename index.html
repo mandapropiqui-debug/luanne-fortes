@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":["Physician","MedicalBusiness"],"@id":"https://draluannefortes.com/#luanne","url":"https://draluannefortes.com/","name":"Dra. Luanne Fortes","description":"Médica nutróloga e nefrologista em Teresina, Piauí.","medicalSpecialty":["Nutrologia","Nefrologia"],"identifier":"CRM-PI 4906","telephone":"+55 86 99466-2157","areaServed":{"@type":"City","name":"Teresina"},"availableService":[{"@type":"MedicalProcedure","name":"Consulta de nutrologia"},{"@type":"MedicalProcedure","name":"Consulta de nefrologia"}],"sameAs":["https://www.instagram.com/draluannefortes/"],"url":"https://wa.me/5586994662157"},
+{"@type":["Physician","MedicalBusiness"],"@id":"https://draluannefortes.com/#luanne","name":"Dra. Luanne Fortes","description":"Médica nutróloga e nefrologista em Teresina, Piauí.","medicalSpecialty":["Nutrologia","Nefrologia"],"identifier":"CRM-PI 4906","telephone":"+55 86 99466-2157","areaServed":{"@type":"City","name":"Teresina"},"availableService":[{"@type":"MedicalProcedure","name":"Consulta de nutrologia"},{"@type":"MedicalProcedure","name":"Consulta de nefrologia"}],"sameAs":["https://www.instagram.com/draluannefortes/"],"url":"https://draluannefortes.com/"},
 {"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Qual a diferença entre nutricionista e nutróloga?","acceptedAnswer":{"@type":"Answer","text":"A nutricionista é graduada em Nutrição e trabalha o plano alimentar. A nutróloga é médica com especialização em Nutrologia e avalia o quadro clínico como um todo, incluindo exames."}},
 {"@type":"Question","name":"A Dra. Luanne atende online?","acceptedAnswer":{"@type":"Answer","text":"Há atendimento presencial e online em Teresina-PI. Os detalhes de cada formato são confirmados pelo WhatsApp."}},
@@ -30,9 +30,10 @@
 <body>
 <div id="open" class="intro" role="dialog" aria-label="Abertura">
   <div class="o-t"><span class="a">O que o seu corpo está</span><span class="b">tentando te dizer?</span></div>
+  <p class="o-hint">Toque no que mais te incomoda</p>
   <div class="o-field" id="orbs"></div>
   <p class="o-say" id="osay" aria-live="polite"></p>
-  <button class="o-skip" id="oskip" type="button">Entrar direto</button>
+  <button class="o-skip" id="oskip" type="button">Entrar direto<i class="o-bar"></i></button>
 </div>
 
 <nav class="menu" id="menu" aria-label="Seções">
@@ -44,14 +45,15 @@
   <a href="#contato" data-s="contato"><i data-i="whatsapp-logo"></i><span>Contato</span></a>
 </nav>
 
-<img id="mascot" class="mascot" src="img/mark-champagne.svg" alt="" aria-hidden="true">
-<div id="bubble" class="balloon" aria-hidden="true"></div>
 
 <main>
 <section id="inicio" class="sec dark hero" data-tone="dark">
-  <div class="port"></div>
-  <h1 class="nm"><span class="d">Dra.</span><span class="l">Luanne</span><span class="f">Fortes</span></h1>
-  <p class="crm"><span>Nutróloga e<br>nefrologista</span><b>CRM-PI 4906</b><em id="rqe" hidden></em></p>
+  <div class="hz">
+    <div class="ph" aria-hidden="true"><img class="ph-bg" src="img/hero-fundo-hd.jpg" alt="" decoding="async"><div class="gold"><i></i><i></i><i></i><i class="sw"></i></div><img class="ph-dra" src="img/hero-dra.webp" alt="" decoding="async"></div>
+    <h1 class="nm"><span class="d">Dra.</span><span class="l">Luanne</span><span class="f">Fortes</span></h1>
+    <p class="crm"><span class="s1">Nutróloga e</span><span class="s2">nefrologista</span><b>CRM-PI 4906</b><em id="rqe" hidden></em></p>
+    <p class="disc">Conteúdo informativo. Não substitui consulta médica nem avaliação individual.</p>
+  </div>
 
   <div class="tri" id="tri">
     <div class="tri-prog" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -80,6 +82,7 @@
 
 <section id="caminhos" class="sec light" data-tone="light">
   <header class="sh"><span class="a">Seis caminhos para</span><span class="b">entender melhor.</span><p>Toque para abrir. Cada um tem um conteúdo informativo e uma mensagem pronta.</p></header>
+  <div class="camdeco" id="camdeco" aria-hidden="true"><svg viewBox="0 0 520 220"><path id="campath" class="cp-bg" d="M12 178 C92 178 100 62 176 78 S272 176 340 128 S432 36 508 70"/><path class="cp-fl" d="M12 178 C92 178 100 62 176 78 S272 176 340 128 S432 36 508 70"/><circle r="6" class="cp-dot"><animateMotion dur="9s" repeatCount="indefinite" path="M12 178 C92 178 100 62 176 78 S272 176 340 128 S432 36 508 70"/></circle></svg></div>
   <div id="paths" class="paths"></div>
 </section>
 
@@ -87,6 +90,7 @@
   <header class="sh"><span class="a">A balança</span><span class="b">não conta tudo.</span><p>Arraste e veja o que fica fora do número.</p></header>
   <div class="gauge"><svg id="gsvg" viewBox="0 0 240 240" aria-hidden="true"></svg><div class="gcen"><strong id="gnum">um número</strong><small id="gtxt">arraste o controle</small></div></div>
   <label class="rng"><span class="sr">Controle da balança</span><input id="grng" type="range" min="0" max="6" step="1" value="0"></label>
+  <div class="bscale" aria-hidden="true"><svg viewBox="0 0 520 300"><path class="bs-base" d="M196 276 Q260 244 324 276 Z"/><line class="bs-col" x1="260" y1="70" x2="260" y2="262"/><g id="bbeam"><line class="bs-beam" x1="80" y1="70" x2="440" y2="70"/><circle cx="80" cy="70" r="5" class="bs-end"/><circle cx="440" cy="70" r="5" class="bs-end"/></g><circle cx="260" cy="70" r="10" class="bs-piv"/><g id="bpl" class="bs-pan"><line class="bs-str" x1="0" y1="0" x2="-58" y2="92"/><line class="bs-str" x1="0" y1="0" x2="58" y2="92"/><rect class="bs-kg" x="-26" y="62" width="52" height="30" rx="8"/><text class="bs-kgt" x="0" y="82" text-anchor="middle">00,0</text><path class="bs-bowl" d="M-64 92 Q0 136 64 92 Z"/><text class="bs-lab" x="0" y="168" text-anchor="middle">o número</text></g><g id="bpr" class="bs-pan"><line class="bs-str" x1="0" y1="0" x2="-58" y2="92"/><line class="bs-str" x1="0" y1="0" x2="58" y2="92"/><g id="btok"></g><path class="bs-bowl" d="M-64 92 Q0 136 64 92 Z"/><text class="bs-lab" x="0" y="168" text-anchor="middle">o conjunto</text></g></svg></div>
   <p class="gnote" id="gnote">O peso resume o corpo em um único valor. A consulta olha o conjunto.</p>
 </section>
 
@@ -95,12 +99,13 @@
   <div class="chat" id="chat1" aria-live="polite"></div>
   <header class="sh sm"><span class="a">Dúvidas</span><span class="b">frequentes</span></header>
   <div class="chat faq" id="faq">
-    <div class="who"><img src="img/mark-olive.svg" alt=""><span>Respostas informativas</span></div>
+    <div class="who"><img src="img/mark-chocolate.svg" alt=""><span>Respostas informativas</span></div>
   </div>
 </section>
 
 <section id="historia" class="sec dark" data-tone="dark">
-  <header class="sh"><span class="a">Uma trajetória</span><span class="b">em movimento.</span></header>
+  <div class="hside"><header class="sh"><span class="a">Uma trajetória</span><span class="b">em movimento.</span></header>
+  <figure class="tlfoto" aria-hidden="true"><img src="img/dra-cut.webp" alt="" decoding="async"></figure></div>
   <ol class="tl" id="tl">
     <li><h3><span class="a">Nefrologia</span><span class="b">e transplante</span></h3><p>O começo da carreira, com o olhar voltado para os rins e para a saúde renal.</p></li>
     <li><h3><span class="a">Uma</span><span class="b">inquietação</span></h3><p>A vontade de olhar o paciente de forma mais ampla, para além de um único órgão.</p></li>
@@ -118,8 +123,8 @@
     <a class="btn alt" id="ctamap" href="https://wa.me/5586994662157?text=Ol%C3%A1%2C%20Dra.%20Luanne!%20Vim%20pelo%20seu%20Instagram.%20Poderia%20me%20informar%20onde%20%C3%A9%20o%20atendimento%20presencial%3F" target="_blank" rel="noopener" data-ev="mapa_click"><i data-i="map-pin"></i><span>Atendimento presencial</span></a>
     <a class="btn alt" id="ctaon" href="https://wa.me/5586994662157?text=Ol%C3%A1%2C%20Dra.%20Luanne!%20Vim%20pelo%20seu%20Instagram.%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20online." target="_blank" rel="noopener" data-ev="whatsapp_click"><i data-i="video-camera"></i><span>Atendimento online</span></a>
   </div>
-  <img class="logo-end" src="img/logo-olive.svg" alt="Luanne Fortes, nutróloga e nefrologista">
-  <p class="foot">Conteúdo informativo. Não substitui consulta médica nem avaliação individual.<br>Dra. Luanne Fortes, CRM-PI 4906. Teresina, Piauí.</p>
+  <div class="endcol"><img class="logo-end" src="img/logo-chocolate.svg" alt="Luanne Fortes, nutróloga e nefrologista">
+  <p class="foot">Conteúdo informativo. Não substitui consulta médica<br>nem avaliação individual.<br>Dra. Luanne Fortes, CRM-PI 4906. Teresina, Piauí.</p></div>
 </section>
 </main>
 
