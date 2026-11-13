@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Dra. Luanne Fortes | Nutróloga e nefrologista em Teresina-PI</title>
+<meta name="description" content="Dra. Luanne Fortes, médica nutróloga e nefrologista em Teresina-PI (CRM-PI 4906). Emagrecimento, lipedema, terapia hormonal, longevidade, performance e saúde dos rins. Atendimento presencial e online.">
+<meta name="theme-color" content="#2F150F">
+<meta property="og:title" content="Dra. Luanne Fortes | Nutróloga e nefrologista">
+<meta property="og:description" content="O que o seu corpo está tentando te dizer? Faça a triagem e monte sua mensagem para o WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/hero.jpg">
+<meta name="robots" content="index,follow">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":["Physician","MedicalBusiness"],"@id":"#luanne","name":"Dra. Luanne Fortes","description":"Médica nutróloga e nefrologista em Teresina, Piauí.","medicalSpecialty":["Nutrologia","Nefrologia"],"identifier":"CRM-PI 4906","telephone":"+55 86 99466-2157","areaServed":{"@type":"City","name":"Teresina"},"availableService":[{"@type":"MedicalProcedure","name":"Consulta de nutrologia"},{"@type":"MedicalProcedure","name":"Consulta de nefrologia"}],"sameAs":["https://www.instagram.com/draluannefortes/"],"url":"https://wa.me/5586994662157"},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Qual a diferença entre nutricionista e nutróloga?","acceptedAnswer":{"@type":"Answer","text":"A nutricionista é graduada em Nutrição e trabalha o plano alimentar. A nutróloga é médica com especialização em Nutrologia e avalia o quadro clínico como um todo, incluindo exames."}},
+{"@type":"Question","name":"A Dra. Luanne atende online?","acceptedAnswer":{"@type":"Answer","text":"Há atendimento presencial e online em Teresina-PI. Os detalhes de cada formato são confirmados pelo WhatsApp."}},
+{"@type":"Question","name":"Lipedema é a mesma coisa que retenção de líquido?","acceptedAnswer":{"@type":"Answer","text":"Não necessariamente. Os dois podem ser confundidos, e só a avaliação médica diferencia."}},
+{"@type":"Question","name":"Existe indicação de medicação ou hormônio antes da consulta?","acceptedAnswer":{"@type":"Answer","text":"Não. Qualquer conduta só é definida depois da avaliação individual."}}]}]}
+</script>
+</head>
+<body>
+<div id="open" class="intro" role="dialog" aria-label="Abertura">
+  <div class="o-t"><span class="a">O que o seu corpo está</span><span class="b">tentando te dizer?</span></div>
+  <div class="o-field" id="orbs"></div>
+  <p class="o-say" id="osay" aria-live="polite"></p>
+  <button class="o-skip" id="oskip" type="button">Entrar direto</button>
+</div>
+
+<nav class="menu" id="menu" aria-label="Seções">
+  <a href="#inicio" data-s="inicio"><i data-i="house"></i><span>Início</span></a>
+  <a href="#caminhos" data-s="caminhos"><i data-i="signpost"></i><span>Caminhos</span></a>
+  <a href="#balanca" data-s="balanca"><i data-i="scales"></i><span>Balança</span></a>
+  <a href="#duvidas" data-s="duvidas"><i data-i="chat-circle-dots"></i><span>Dúvidas</span></a>
+  <a href="#historia" data-s="historia"><i data-i="clock-counter-clockwise"></i><span>História</span></a>
+  <a href="#contato" data-s="contato"><i data-i="whatsapp-logo"></i><span>Contato</span></a>
+</nav>
+
+<img id="mascot" class="mascot" src="img/mark-champagne.svg" alt="" aria-hidden="true">
+<div id="bubble" class="balloon" aria-hidden="true"></div>
+
+<main>
+<section id="inicio" class="sec dark hero" data-tone="dark">
+  <div class="port"></div>
+  <h1 class="nm"><span class="d">Dra.</span><span class="l">Luanne</span><span class="f">Fortes</span></h1>
+  <p class="crm"><span>Nutróloga e<br>nefrologista</span><b>CRM-PI 4906</b><em id="rqe" hidden></em></p>
+
+  <div class="tri" id="tri">
+    <div class="tri-prog" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="tri-step on" data-step="1">
+      <h2><span class="a">O que mais</span><span class="b">te incomoda hoje?</span></h2>
+      <div class="chips" id="chips1"></div>
+    </div>
+    <div class="tri-step" data-step="2">
+      <h2><span class="a">Há quanto tempo</span><span class="b">isso te acompanha?</span></h2>
+      <div class="chips" id="chips2"></div>
+      <h3 class="sub">Como prefere ser atendida?</h3>
+      <div class="chips two" id="chips3"></div>
+      <button class="btn ghost back" type="button" data-back="1">Voltar</button>
+    </div>
+    <div class="tri-step" data-step="3">
+      <h2><span class="a">Sua mensagem</span><span class="b">está pronta.</span></h2>
+      <p class="tri-soft" id="trisoft"></p>
+      <blockquote class="msg" id="trimsg"></blockquote>
+      <a class="btn wa" id="triwa" href="#" target="_blank" rel="noopener" data-ev="whatsapp_click"><i data-i="whatsapp-logo"></i><span>Enviar no WhatsApp</span></a>
+      <button class="btn ghost" id="tricopy" type="button"><i data-i="copy"></i><span>Copiar mensagem</span></button>
+      <button class="btn ghost back" type="button" data-back="1">Refazer</button>
+      <p class="tri-note">Nenhum dado seu é enviado para servidor. A mensagem só abre no seu WhatsApp.</p>
+    </div>
+  </div>
+</section>
+
+<section id="caminhos" class="sec light" data-tone="light">
+  <header class="sh"><span class="a">Seis caminhos para</span><span class="b">entender melhor.</span><p>Toque para abrir. Cada um tem um conteúdo informativo e uma mensagem pronta.</p></header>
+  <div id="paths" class="paths"></div>
+</section>
+
+<section id="balanca" class="sec dark" data-tone="dark">
+  <header class="sh"><span class="a">A balança</span><span class="b">não conta tudo.</span><p>Arraste e veja o que fica fora do número.</p></header>
+  <div class="gauge"><svg id="gsvg" viewBox="0 0 240 240" aria-hidden="true"></svg><div class="gcen"><strong id="gnum">um número</strong><small id="gtxt">arraste o controle</small></div></div>
+  <label class="rng"><span class="sr">Controle da balança</span><input id="grng" type="range" min="0" max="6" step="1" value="0"></label>
+  <p class="gnote" id="gnote">O peso resume o corpo em um único valor. A consulta olha o conjunto.</p>
+</section>
+
+<section id="duvidas" class="sec light" data-tone="light">
+  <header class="sh"><span class="a">Nutricionista</span><span class="b">ou nutróloga?</span><p>Uma conversa rápida, e depois as dúvidas mais comuns.</p></header>
+  <div class="chat" id="chat1" aria-live="polite"></div>
+  <header class="sh sm"><span class="a">Dúvidas</span><span class="b">frequentes</span></header>
+  <div class="chat faq" id="faq">
+    <div class="who"><img src="img/mark-olive.svg" alt=""><span>Respostas informativas</span></div>
+  </div>
+</section>
+
+<section id="historia" class="sec dark" data-tone="dark">
+  <header class="sh"><span class="a">Uma trajetória</span><span class="b">em movimento.</span></header>
+  <ol class="tl" id="tl">
+    <li><h3><span class="a">Nefrologia</span><span class="b">e transplante</span></h3><p>O começo da carreira, com o olhar voltado para os rins e para a saúde renal.</p></li>
+    <li><h3><span class="a">Uma</span><span class="b">inquietação</span></h3><p>A vontade de olhar o paciente de forma mais ampla, para além de um único órgão.</p></li>
+    <li><h3><span class="a">Título em</span><span class="b">Nutrologia</span></h3><p>A nutrologia entra na prática e passa a ocupar um lugar central na rotina da consulta.</p></li>
+    <li><h3><span class="a">Uma nova</span><span class="b">identidade</span></h3><p>Nasce a marca Luanne Fortes, nutróloga e nefrologista.</p></li>
+    <li><h3><span class="a">Rumo à</span><span class="b">longevidade</span></h3><p>O foco em envelhecer bem, com saúde, energia e acompanhamento individual.</p></li>
+  </ol>
+</section>
+
+<section id="contato" class="sec light" data-tone="light">
+  <header class="sh"><span class="a">Vamos</span><span class="b">conversar?</span></header>
+  <div class="ctas">
+    <a class="btn wa big" id="ctawa" href="https://wa.me/5586994662157" target="_blank" rel="noopener" data-ev="whatsapp_click"><i data-i="whatsapp-logo"></i><span>Chamar no WhatsApp</span></a>
+    <a class="btn alt" href="https://www.instagram.com/draluannefortes/" target="_blank" rel="noopener" data-ev="instagram_click"><i data-i="instagram-logo"></i><span>@draluannefortes</span></a>
+    <a class="btn alt" id="ctamap" href="https://wa.me/5586994662157?text=Ol%C3%A1%2C%20Dra.%20Luanne!%20Vim%20pelo%20seu%20Instagram.%20Poderia%20me%20informar%20onde%20%C3%A9%20o%20atendimento%20presencial%3F" target="_blank" rel="noopener" data-ev="mapa_click"><i data-i="map-pin"></i><span>Atendimento presencial</span></a>
+    <a class="btn alt" id="ctaon" href="https://wa.me/5586994662157?text=Ol%C3%A1%2C%20Dra.%20Luanne!%20Vim%20pelo%20seu%20Instagram.%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20online." target="_blank" rel="noopener" data-ev="whatsapp_click"><i data-i="video-camera"></i><span>Atendimento online</span></a>
+  </div>
+  <img class="logo-end" src="img/logo-olive.svg" alt="Luanne Fortes, nutróloga e nefrologista">
+  <p class="foot">Conteúdo informativo. Não substitui consulta médica nem avaliação individual.<br>Dra. Luanne Fortes, CRM-PI 4906. Teresina, Piauí.</p>
+</section>
+</main>
+
+<script src="app.js" defer></script>
+</body>
+</html>
